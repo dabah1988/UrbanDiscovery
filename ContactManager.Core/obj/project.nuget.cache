@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J//HqeVxOzM=",
+  "dgSpecHash": "APcwUn8vB/4=",
   "success": true,
-  "projectFilePath": "D:\\Developper2\\UrbanDiscovery\\ContactManager.Core\\ContactsManager.Core.csproj",
+  "projectFilePath": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\UrbanDiscovery\\ContactManager.Core\\ContactsManager.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hermann KIPRE\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.3.0\\microsoft.aspnetcore.antiforgery.2.3.0.nupkg.sha512",
     "C:\\Users\\Hermann KIPRE\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.3.0\\microsoft.aspnetcore.authentication.2.3.0.nupkg.sha512",

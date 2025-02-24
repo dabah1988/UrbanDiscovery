@@ -18,6 +18,9 @@ using System;
 
 namespace ServiceCountryTests
 {
+    /// <summary>
+    /// Ajout de commmentaire  pour serviceCountry
+    /// </summary>
     public class CountryServiceTest
     {
         private readonly IcountryService? _countryService;
@@ -69,6 +72,10 @@ namespace ServiceCountryTests
        
         }
 
+        /// <summary>
+        /// AddcountryShould Returns errors
+        /// </summary>
+        /// <returns></returns>
         [Fact]
         public async Task AddCountry_ShouldReturnArgumentExceptionIfCountryNameIsDuplicated()
         {

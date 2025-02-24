@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N1r1Cnm7zbo=",
+  "dgSpecHash": "N7QlVYXGsRg=",
   "success": true,
-  "projectFilePath": "D:\\Developper2\\UrbanDiscovery\\ContactManager\\ContactsManager.UI.csproj",
+  "projectFilePath": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\UrbanDiscovery\\ContactManager\\ContactsManager.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hermann KIPRE\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Hermann KIPRE\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

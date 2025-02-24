@@ -16538,11 +16538,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Developper2\\UrbanDiscovery\\ContactsManagerTests\\ContactsManagerTests.csproj",
+      "projectUniqueName": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\UrbanDiscovery\\ContactsManagerTests\\ContactsManagerTests.csproj",
       "projectName": "ContactsManagerTests",
-      "projectPath": "D:\\Developper2\\UrbanDiscovery\\ContactsManagerTests\\ContactsManagerTests.csproj",
+      "projectPath": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\UrbanDiscovery\\ContactsManagerTests\\ContactsManagerTests.csproj",
       "packagesPath": "C:\\Users\\Hermann KIPRE\\.nuget\\packages\\",
-      "outputPath": "D:\\Developper2\\UrbanDiscovery\\ContactsManagerTests\\obj\\",
+      "outputPath": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\UrbanDiscovery\\ContactsManagerTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -16564,14 +16564,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Developper2\\UrbanDiscovery\\ContactManager.Core\\ContactsManager.Core.csproj": {
-              "projectPath": "D:\\Developper2\\UrbanDiscovery\\ContactManager.Core\\ContactsManager.Core.csproj"
+            "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\UrbanDiscovery\\ContactManager.Core\\ContactsManager.Core.csproj": {
+              "projectPath": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\UrbanDiscovery\\ContactManager.Core\\ContactsManager.Core.csproj"
             },
-            "D:\\Developper2\\UrbanDiscovery\\ContactManager\\ContactsManager.UI.csproj": {
-              "projectPath": "D:\\Developper2\\UrbanDiscovery\\ContactManager\\ContactsManager.UI.csproj"
+            "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\UrbanDiscovery\\ContactManager\\ContactsManager.UI.csproj": {
+              "projectPath": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\UrbanDiscovery\\ContactManager\\ContactsManager.UI.csproj"
             },
-            "D:\\Developper2\\UrbanDiscovery\\ContactsManager.Infrastructure\\ContactsManager.Infrastructure.csproj": {
-              "projectPath": "D:\\Developper2\\UrbanDiscovery\\ContactsManager.Infrastructure\\ContactsManager.Infrastructure.csproj"
+            "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\UrbanDiscovery\\ContactsManager.Infrastructure\\ContactsManager.Infrastructure.csproj": {
+              "projectPath": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\UrbanDiscovery\\ContactsManager.Infrastructure\\ContactsManager.Infrastructure.csproj"
             }
           }
         }

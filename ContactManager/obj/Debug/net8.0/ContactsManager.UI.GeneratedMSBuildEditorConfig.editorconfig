@@ -17,65 +17,65 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ContactsManager.UI
 build_property.RootNamespace = ContactsManager.UI
-build_property.ProjectDir = D:\Developper2\UrbanDiscovery\ContactManager\
+build_property.ProjectDir = D:\COURS_APPRENTISSAGE_SHARP\UPDATE_ASPNET_CORE_DECEMBER\CleanArchitecture\UrbanDiscovery\ContactManager\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Developper2\UrbanDiscovery\ContactManager
+build_property.MSBuildProjectDirectory = D:\COURS_APPRENTISSAGE_SHARP\UPDATE_ASPNET_CORE_DECEMBER\CleanArchitecture\UrbanDiscovery\ContactManager
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/Developper2/UrbanDiscovery/ContactManager/Areas/AdminArea/Views/AdminHome/Index.cshtml]
+[D:/COURS_APPRENTISSAGE_SHARP/UPDATE_ASPNET_CORE_DECEMBER/CleanArchitecture/UrbanDiscovery/ContactManager/Areas/AdminArea/Views/AdminHome/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5BcmVhXFZpZXdzXEFkbWluSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Developper2/UrbanDiscovery/ContactManager/Areas/AdminArea/Views/_ViewImports.cshtml]
+[D:/COURS_APPRENTISSAGE_SHARP/UPDATE_ASPNET_CORE_DECEMBER/CleanArchitecture/UrbanDiscovery/ContactManager/Areas/AdminArea/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5BcmVhXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Developper2/UrbanDiscovery/ContactManager/views/About/AboutUs.cshtml]
+[D:/COURS_APPRENTISSAGE_SHARP/UPDATE_ASPNET_CORE_DECEMBER/CleanArchitecture/UrbanDiscovery/ContactManager/views/About/AboutUs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = dmlld3NcQWJvdXRcQWJvdXRVcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Developper2/UrbanDiscovery/ContactManager/views/About/Customers.cshtml]
+[D:/COURS_APPRENTISSAGE_SHARP/UPDATE_ASPNET_CORE_DECEMBER/CleanArchitecture/UrbanDiscovery/ContactManager/views/About/Customers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = dmlld3NcQWJvdXRcQ3VzdG9tZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Developper2/UrbanDiscovery/ContactManager/views/Account/Account.cshtml]
+[D:/COURS_APPRENTISSAGE_SHARP/UPDATE_ASPNET_CORE_DECEMBER/CleanArchitecture/UrbanDiscovery/ContactManager/views/Account/Account.cshtml]
 build_metadata.AdditionalFiles.TargetPath = dmlld3NcQWNjb3VudFxBY2NvdW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Developper2/UrbanDiscovery/ContactManager/views/Account/Login.cshtml]
+[D:/COURS_APPRENTISSAGE_SHARP/UPDATE_ASPNET_CORE_DECEMBER/CleanArchitecture/UrbanDiscovery/ContactManager/views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = dmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Developper2/UrbanDiscovery/ContactManager/views/Account/Register.cshtml]
+[D:/COURS_APPRENTISSAGE_SHARP/UPDATE_ASPNET_CORE_DECEMBER/CleanArchitecture/UrbanDiscovery/ContactManager/views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = dmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Developper2/UrbanDiscovery/ContactManager/views/Home/Create.cshtml]
+[D:/COURS_APPRENTISSAGE_SHARP/UPDATE_ASPNET_CORE_DECEMBER/CleanArchitecture/UrbanDiscovery/ContactManager/views/Home/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = dmlld3NcSG9tZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Developper2/UrbanDiscovery/ContactManager/views/Home/Edit.cshtml]
+[D:/COURS_APPRENTISSAGE_SHARP/UPDATE_ASPNET_CORE_DECEMBER/CleanArchitecture/UrbanDiscovery/ContactManager/views/Home/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = dmlld3NcSG9tZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Developper2/UrbanDiscovery/ContactManager/views/Home/Index.cshtml]
+[D:/COURS_APPRENTISSAGE_SHARP/UPDATE_ASPNET_CORE_DECEMBER/CleanArchitecture/UrbanDiscovery/ContactManager/views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = dmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Developper2/UrbanDiscovery/ContactManager/views/Shared/_Layout.cshtml]
+[D:/COURS_APPRENTISSAGE_SHARP/UPDATE_ASPNET_CORE_DECEMBER/CleanArchitecture/UrbanDiscovery/ContactManager/views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = dmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Developper2/UrbanDiscovery/ContactManager/views/Shared/_ViewStart.cshtml]
+[D:/COURS_APPRENTISSAGE_SHARP/UPDATE_ASPNET_CORE_DECEMBER/CleanArchitecture/UrbanDiscovery/ContactManager/views/Shared/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = dmlld3NcU2hhcmVkXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Developper2/UrbanDiscovery/ContactManager/views/_ViewImports.cshtml]
+[D:/COURS_APPRENTISSAGE_SHARP/UPDATE_ASPNET_CORE_DECEMBER/CleanArchitecture/UrbanDiscovery/ContactManager/views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = dmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
