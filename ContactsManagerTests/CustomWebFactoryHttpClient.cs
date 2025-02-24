@@ -10,6 +10,9 @@ using System.Linq;
 
 namespace ServiceCountryPersonTests
 {
+    /// <summary>
+    /// CustomWebFactoryHttpClient
+    /// </summary>
     public class CustomWebFactoryHttpClient: WebApplicationFactory<Program>
     {
         protected override void ConfigureWebHost(IWebHostBuilder builder)

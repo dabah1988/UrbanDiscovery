@@ -11,6 +11,9 @@ using Xunit;
 using System.Net.Http;
 namespace ServiceCountryPersonTests
 {
+    /// <summary>
+    /// HomeControllerIntegration
+    /// </summary>
     public class HomeControllerIntegration : IClassFixture<CustomWebFactoryHttpClient>
     {
         private readonly HttpClient _httpClient;
@@ -19,6 +22,10 @@ namespace ServiceCountryPersonTests
         {
             _httpClient =  factoryHttpClient.CreateClient();
         }
+        /// <summary>
+        /// Index_ShouldReturnView
+        /// </summary>
+        /// <returns></returns>
         [Fact]
         public async Task Index_ShouldReturnView()
         {
