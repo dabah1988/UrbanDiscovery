@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\ContactManager\\ContactsManagerWebAPI.Core\\ContactsManagerWebAPI.Core.csproj": {}
+    "D:\\Developper2\\UrbanDiscovery\\ContactsManagerWebAPI.Core\\ContactsManagerWebAPI.Core.csproj": {}
   },
   "projects": {
-    "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\ContactManager\\ContactsManagerWebAPI.Core\\ContactsManagerWebAPI.Core.csproj": {
+    "D:\\Developper2\\UrbanDiscovery\\ContactsManagerWebAPI.Core\\ContactsManagerWebAPI.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\ContactManager\\ContactsManagerWebAPI.Core\\ContactsManagerWebAPI.Core.csproj",
+        "projectUniqueName": "D:\\Developper2\\UrbanDiscovery\\ContactsManagerWebAPI.Core\\ContactsManagerWebAPI.Core.csproj",
         "projectName": "ContactsManagerWebAPI.Core",
-        "projectPath": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\ContactManager\\ContactsManagerWebAPI.Core\\ContactsManagerWebAPI.Core.csproj",
+        "projectPath": "D:\\Developper2\\UrbanDiscovery\\ContactsManagerWebAPI.Core\\ContactsManagerWebAPI.Core.csproj",
         "packagesPath": "C:\\Users\\Hermann KIPRE\\.nuget\\packages\\",
-        "outputPath": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\ContactManager\\ContactsManagerWebAPI.Core\\obj\\",
+        "outputPath": "D:\\Developper2\\UrbanDiscovery\\ContactsManagerWebAPI.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

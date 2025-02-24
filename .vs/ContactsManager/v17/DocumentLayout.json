@@ -1,17 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\ContactManager\\",
+  "WorkspaceRootPath": "D:\\Developper2\\UrbanDiscovery\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{440C5E9B-79D9-49A6-868A-CB4364098367}|ContactsManagerWebAPI\\ContactsManagerWebAPI.csproj|d:\\cours_apprentissage_sharp\\update_aspnet_core_december\\cleanarchitecture\\contactmanager\\contactsmanagerwebapi\\controllers\\v1\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{440C5E9B-79D9-49A6-868A-CB4364098367}|ContactsManagerWebAPI\\ContactsManagerWebAPI.csproj|d:\\developper2\\urbandiscovery\\contactsmanagerwebapi\\controllers\\v2\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{440C5E9B-79D9-49A6-868A-CB4364098367}|ContactsManagerWebAPI\\ContactsManagerWebAPI.csproj|solutionrelative:contactsmanagerwebapi\\controllers\\v2\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{440C5E9B-79D9-49A6-868A-CB4364098367}|ContactsManagerWebAPI\\ContactsManagerWebAPI.csproj|d:\\developper2\\urbandiscovery\\contactsmanagerwebapi\\controllers\\v1\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{440C5E9B-79D9-49A6-868A-CB4364098367}|ContactsManagerWebAPI\\ContactsManagerWebAPI.csproj|solutionrelative:contactsmanagerwebapi\\controllers\\v1\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18A1CD42-1FBC-4527-B8E9-4F6A26B5F96E}|ContactsManagerWebAPI.Core\\ContactsManagerWebAPI.Core.csproj|d:\\cours_apprentissage_sharp\\update_aspnet_core_december\\cleanarchitecture\\contactmanager\\contactsmanagerwebapi.core\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{18A1CD42-1FBC-4527-B8E9-4F6A26B5F96E}|ContactsManagerWebAPI.Core\\ContactsManagerWebAPI.Core.csproj|d:\\developper2\\urbandiscovery\\contactsmanagerwebapi.core\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18A1CD42-1FBC-4527-B8E9-4F6A26B5F96E}|ContactsManagerWebAPI.Core\\ContactsManagerWebAPI.Core.csproj|solutionrelative:contactsmanagerwebapi.core\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{440C5E9B-79D9-49A6-868A-CB4364098367}|ContactsManagerWebAPI\\ContactsManagerWebAPI.csproj|d:\\cours_apprentissage_sharp\\update_aspnet_core_december\\cleanarchitecture\\contactmanager\\contactsmanagerwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{440C5E9B-79D9-49A6-868A-CB4364098367}|ContactsManagerWebAPI\\ContactsManagerWebAPI.csproj|d:\\developper2\\urbandiscovery\\contactsmanagerwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{440C5E9B-79D9-49A6-868A-CB4364098367}|ContactsManagerWebAPI\\ContactsManagerWebAPI.csproj|solutionrelative:contactsmanagerwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 598,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,11 +42,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "City.cs",
+              "DocumentMoniker": "D:\\Developper2\\UrbanDiscovery\\ContactsManagerWebAPI\\Controllers\\V2\\City.cs",
+              "RelativeDocumentMoniker": "ContactsManagerWebAPI\\Controllers\\V2\\City.cs",
+              "ToolTip": "D:\\Developper2\\UrbanDiscovery\\ContactsManagerWebAPI\\Controllers\\V2\\City.cs",
+              "RelativeToolTip": "ContactsManagerWebAPI\\Controllers\\V2\\City.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwBwAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T12:14:38.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\ContactManager\\ContactsManagerWebAPI\\Program.cs",
+              "DocumentMoniker": "D:\\Developper2\\UrbanDiscovery\\ContactsManagerWebAPI\\Program.cs",
               "RelativeDocumentMoniker": "ContactsManagerWebAPI\\Program.cs",
-              "ToolTip": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\ContactManager\\ContactsManagerWebAPI\\Program.cs",
+              "ToolTip": "D:\\Developper2\\UrbanDiscovery\\ContactsManagerWebAPI\\Program.cs",
               "RelativeToolTip": "ContactsManagerWebAPI\\Program.cs",
               "ViewState": "AgIAAJAAAAAAAAAAAAAuwJoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -50,24 +67,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Account.cs",
-              "DocumentMoniker": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\ContactManager\\ContactsManagerWebAPI\\Controllers\\V1\\Account.cs",
+              "DocumentMoniker": "D:\\Developper2\\UrbanDiscovery\\ContactsManagerWebAPI\\Controllers\\V1\\Account.cs",
               "RelativeDocumentMoniker": "ContactsManagerWebAPI\\Controllers\\V1\\Account.cs",
-              "ToolTip": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\ContactManager\\ContactsManagerWebAPI\\Controllers\\V1\\Account.cs",
+              "ToolTip": "D:\\Developper2\\UrbanDiscovery\\ContactsManagerWebAPI\\Controllers\\V1\\Account.cs",
               "RelativeToolTip": "ContactsManagerWebAPI\\Controllers\\V1\\Account.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAowBEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T08:51:30.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-24T08:51:30.769Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "JwtService.cs",
-              "DocumentMoniker": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\ContactManager\\ContactsManagerWebAPI.Core\\Services\\JwtService.cs",
+              "DocumentMoniker": "D:\\Developper2\\UrbanDiscovery\\ContactsManagerWebAPI.Core\\Services\\JwtService.cs",
               "RelativeDocumentMoniker": "ContactsManagerWebAPI.Core\\Services\\JwtService.cs",
-              "ToolTip": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\ContactManager\\ContactsManagerWebAPI.Core\\Services\\JwtService.cs",
+              "ToolTip": "D:\\Developper2\\UrbanDiscovery\\ContactsManagerWebAPI.Core\\Services\\JwtService.cs",
               "RelativeToolTip": "ContactsManagerWebAPI.Core\\Services\\JwtService.cs",
               "ViewState": "AgIAAFkAAAAAAAAAAAAAAFkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

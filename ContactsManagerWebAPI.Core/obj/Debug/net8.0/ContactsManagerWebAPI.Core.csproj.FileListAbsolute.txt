@@ -10,3 +10,16 @@ D:\COURS_APPRENTISSAGE_SHARP\UPDATE_ASPNET_CORE_DECEMBER\CleanArchitecture\Conta
 D:\COURS_APPRENTISSAGE_SHARP\UPDATE_ASPNET_CORE_DECEMBER\CleanArchitecture\ContactManager\ContactsManagerWebAPI.Core\obj\Debug\net8.0\ContactsManagerWebAPI.Core.pdb
 D:\COURS_APPRENTISSAGE_SHARP\UPDATE_ASPNET_CORE_DECEMBER\CleanArchitecture\ContactManager\ContactsManagerWebAPI.Core\obj\Debug\net8.0\ref\ContactsManagerWebAPI.Core.dll
 D:\COURS_APPRENTISSAGE_SHARP\UPDATE_ASPNET_CORE_DECEMBER\CleanArchitecture\ContactManager\ContactsManagerWebAPI.Core\obj\Debug\net8.0\ContactsManagerWebAPI.Core.csproj.AssemblyReference.cache
+D:\Developper2\UrbanDiscovery\ContactsManagerWebAPI.Core\bin\Debug\net8.0\ContactsManagerWebAPI.Core.deps.json
+D:\Developper2\UrbanDiscovery\ContactsManagerWebAPI.Core\bin\Debug\net8.0\ContactsManagerWebAPI.Core.dll
+D:\Developper2\UrbanDiscovery\ContactsManagerWebAPI.Core\bin\Debug\net8.0\ContactsManagerWebAPI.Core.pdb
+D:\Developper2\UrbanDiscovery\ContactsManagerWebAPI.Core\obj\Debug\net8.0\ContactsManagerWebAPI.Core.csproj.AssemblyReference.cache
+D:\Developper2\UrbanDiscovery\ContactsManagerWebAPI.Core\obj\Debug\net8.0\ContactsManagerWebAPI.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Developper2\UrbanDiscovery\ContactsManagerWebAPI.Core\obj\Debug\net8.0\ContactsManagerWebAPI.Core.AssemblyInfoInputs.cache
+D:\Developper2\UrbanDiscovery\ContactsManagerWebAPI.Core\obj\Debug\net8.0\ContactsManagerWebAPI.Core.AssemblyInfo.cs
+D:\Developper2\UrbanDiscovery\ContactsManagerWebAPI.Core\obj\Debug\net8.0\ContactsManagerWebAPI.Core.csproj.CoreCompileInputs.cache
+D:\Developper2\UrbanDiscovery\ContactsManagerWebAPI.Core\obj\Debug\net8.0\ContactsManagerWebAPI.Core.sourcelink.json
+D:\Developper2\UrbanDiscovery\ContactsManagerWebAPI.Core\obj\Debug\net8.0\ContactsManagerWebAPI.Core.dll
+D:\Developper2\UrbanDiscovery\ContactsManagerWebAPI.Core\obj\Debug\net8.0\refint\ContactsManagerWebAPI.Core.dll
+D:\Developper2\UrbanDiscovery\ContactsManagerWebAPI.Core\obj\Debug\net8.0\ContactsManagerWebAPI.Core.pdb
+D:\Developper2\UrbanDiscovery\ContactsManagerWebAPI.Core\obj\Debug\net8.0\ref\ContactsManagerWebAPI.Core.dll

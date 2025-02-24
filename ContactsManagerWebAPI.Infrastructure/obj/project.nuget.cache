@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X0lU02CzB5A=",
+  "dgSpecHash": "1eUfXlidQgI=",
   "success": true,
-  "projectFilePath": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\ContactManager\\ContactsManagerWebAPI.Infrastructure\\ContactsManagerWebAPI.Infrastructure.csproj",
+  "projectFilePath": "D:\\Developper2\\UrbanDiscovery\\ContactsManagerWebAPI.Infrastructure\\ContactsManagerWebAPI.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hermann KIPRE\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Hermann KIPRE\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

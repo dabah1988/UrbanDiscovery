@@ -26,9 +26,21 @@ namespace ContactsManagerWebAPI.Controllers.V2
         public async Task<ActionResult<IEnumerable<string?>>> GetCities()
         {
             if (_dbContext == null || _dbContext.Cities == null)
-                return NotFound("Database is not accessible");
+                return NotFound("Database is not accessible, please check connexion");
             return await _dbContext.Cities.Select(c => c.CityName).ToListAsync();
         }
 
+        /// <summary>
+        /// Get List Of population
+        /// </summary>
+        /// <returns></returns>
+        [HttpPost]
+        [Produces("application/json")]
+        public async Task<ActionResult<IEnumerable<int>>> GetPopulation()
+        {
+            if (_dbContext == null || _dbContext.Cities == null)
+                return NotFound("Database is not accessible");
+            return await _dbContext.Cities.Select(c => c.CityPopulation).ToListAsync();
+        }
     }
 }
