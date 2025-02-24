@@ -1,0 +1,22 @@
+﻿[
+  {
+    "CountryId": "e7b3c506-8c8b-4b9a-bbf3-1a2e2e4e5f12",
+    "CountryName": "France"
+  },
+  {
+    "CountryId": "d234f91e-6b8a-45e9-bf13-89a41e2d5d78",
+    "CountryName": "Germany"
+  },
+  {
+    "CountryId": "a9c4d7f3-1c8e-42b5-92f0-82e1e3c9e1f7",
+    "CountryName": "United States"
+  },
+  {
+    "CountryId": "c5a1e2f4-9d2a-41c7-ae45-34f2b4e5c6d9",
+    "CountryName": "Canada"
+  },
+  {
+    "CountryId": "b1e9f5d3-4c7a-4821-983a-91f2c3e1d5a6",
+    "CountryName": "Japan"
+  }
+]

@@ -1,0 +1,213 @@
+[
+  {
+    "ContainingType": "ContactsManagerWebAPI.Controllers.V1.AccountController",
+    "Method": "PostRegister",
+    "RelativePath": "api/v1/Account",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDTO",
+        "Type": "ContactsManagerWebAPI.Core.DTO.RegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ContactsManagerWebAPI.Core.Identity.ApplicationUser",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ContactsManagerWebAPI.Controllers.V1.AccountController",
+    "Method": "GenerateNewAccessToken",
+    "RelativePath": "api/v1/Account/generateNewJwtToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tokenModel",
+        "Type": "ContactsManagerWebAPI.Core.DTO.TokenModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ContactsManagerWebAPI.Controllers.V1.AccountController",
+    "Method": "IsEmailAlreadyExists",
+    "RelativePath": "api/v1/Account/IsEmailAlreadyExists",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ContactsManagerWebAPI.Controllers.V1.AccountController",
+    "Method": "PosLogin",
+    "RelativePath": "api/v1/Account/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDTO",
+        "Type": "ContactsManagerWebAPI.Core.DTO.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ContactsManagerWebAPI.Core.Identity.ApplicationUser",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ContactsManagerWebAPI.Controllers.V1.AccountController",
+    "Method": "GetLoGout",
+    "RelativePath": "api/v1/Account/logout",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ContactsManagerWebAPI.Controllers.V1.City",
+    "Method": "GetCities",
+    "RelativePath": "api/v1/City",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ContactsManagerWebAPI.Core.Models.CityModel, ContactsManagerWebAPI.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ContactsManagerWebAPI.Controllers.V1.City",
+    "Method": "PostCity",
+    "RelativePath": "api/v1/City",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "city",
+        "Type": "ContactsManagerWebAPI.Core.Models.CityModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ContactsManagerWebAPI.Core.Models.CityModel",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ContactsManagerWebAPI.Controllers.V1.City",
+    "Method": "GetCity",
+    "RelativePath": "api/v1/City/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ContactsManagerWebAPI.Core.Models.CityModel",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ContactsManagerWebAPI.Controllers.V1.City",
+    "Method": "PutCity",
+    "RelativePath": "api/v1/City/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "city",
+        "Type": "ContactsManagerWebAPI.Core.Models.CityModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ContactsManagerWebAPI.Controllers.V1.City",
+    "Method": "DeleteCity",
+    "RelativePath": "api/v1/City/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ContactsManagerWebAPI.Controllers.V2.City",
+    "Method": "GetCities",
+    "RelativePath": "api/v2/City",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/xml"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

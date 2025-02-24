@@ -1,0 +1,42 @@
+<form [formGroup]="postCityForm" (ngSubmit)="onSubmit()">
+    <table class="city-form-table">
+        <tr>
+            <td>
+                <label for="cityName">Nom de la ville</label>
+            </td>
+            <td>
+                <input id="cityName" formControlName="cityName" />
+                <div class="error" *ngIf="postCityForm.get('cityName')?.invalid && (postCityForm.get('cityName')?.touched || isRegisterFormSubmitted)">
+                    Ce champ est obligatoire.
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="cityPopulation">Population</label>
+            </td>
+            <td>
+                <input id="cityPopulation" type="number" formControlName="cityPopulation" />
+                <div class="error" *ngIf="postCityForm.get('cityPopulation')?.invalid && (postCityForm.get('cityPopulation')?.touched || isRegisterFormSubmitted)">
+                    Veuillez saisir une population valide.
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="cityArea">Superficie</label>
+            </td>
+            <td>
+                <input id="cityArea" type="number" formControlName="cityArea" />
+                <div class="error" *ngIf="postCityForm.get('cityArea')?.invalid && (postCityForm.get('cityArea')?.touched ||isRegisterFormSubmitted)">
+                    Veuillez saisir une superficie valide.
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="submit-cell">
+                <button type="submit"  >Envoyer</button>
+            </td>
+        </tr>
+    </table>
+</form>

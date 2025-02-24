@@ -1,0 +1,64 @@
+﻿@using ContactsManager.Core.DTO;
+@model IEnumerable<PersonResponse>
+@{
+    Layout = "_Layout";
+    List<CountryResponse>? countriesResponses = (ViewData["CountryDict"] as List<CountryResponse>);
+    if (countriesResponses == null) throw new ArgumentNullException($"{nameof(countriesResponses)} is empty");
+    ViewBag.CurrentUrl = "~/Persons/Home";
+}
+<h2>Liste des personnes</h2>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau</title>
+    <link rel="stylesheet" href="/css/tableau.css" />
+</head>
+<body>
+
+    <table class="table-bordered table">
+        @if (User.IsInRole(UserTypeOptions.Admin.ToString()))
+        {
+        <tr><td colspan="6"><a asp-action="Create" asp-controller="Home"> <p> Ajouter une personne</p></a></td></tr>
+         }
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Email</th>
+                <th>Téléphone</th>
+                <th>Date de naissance</th>
+                <th>Country</th>
+               @if (User.IsInRole(UserTypeOptions.Admin.ToString()))
+                 {
+                <th>Actions</th>
+                 }
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var person in Model)
+            {
+                <tr>
+                    <td>@person.Name</td>
+                    <td>@person.Email</td>
+                    <td>@person.PhoneNumber</td>
+                    <td>@person.DateOfBirth.ToString("dd/MM/yyyy")</td>
+                    <td>@person.Country?.CountryName</td>
+                    @if (User.IsInRole(UserTypeOptions.Admin.ToString()))
+                    {
+                    <td>
+                     
+                            <a asp-action="Edit" asp-controller="Home" asp-route-id="@person.Id.ToString()" class="btn btn-primary">Modifier</a>
+                            <a asp-action="Delete" asp-controller="Home" asp-route-id="@person.Id.ToString()" class="btn btn-danger">Supprimer</a>
+                       
+                    </td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>
+
+

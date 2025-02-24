@@ -1,0 +1,77 @@
+<form [formGroup]="registerForm" (ngSubmit)="registerSubmitted()">
+    <table class="city-form-table">
+        <tr><td colspan="2"><p class="create_account">Create account </p></td></tr>
+
+        <!-- Nom et prénoms -->
+        <tr>
+            <td><label for="personName">Nom et prénoms</label></td>
+            <td>
+                <input id="personName" formControlName="personName" />
+                <span class="text-red" *ngIf="(register_personName_Control.touched || isRegisterFormSubmitted)
+               && register_personName_Control.errors?.['required']">
+                    Nom obligatoire
+                </span>
+            </td>
+        </tr>
+
+        <!-- Email -->
+        <tr>
+            <td><label for="email">Email</label></td>
+            <td>
+                <input id="email" type="email" formControlName="email" />
+                <span class="error" *ngIf="(registerForm.get('email')?.touched || isRegisterFormSubmitted)
+                && registerForm.get('email')?.invalid">
+                    Email obligatoire
+                </span>
+            </td>
+        </tr>
+
+        <!-- Numéro de téléphone -->
+        <tr>
+            <td><label for="phoneNumber">Phone number</label></td>
+            <td>
+                <input id="phoneNumber" type="text" formControlName="phoneNumber" />
+                <span class="error" *ngIf="(registerForm.get('phoneNumber')?.touched || isRegisterFormSubmitted)
+                && registerForm.get('phoneNumber')?.invalid">
+                    Numéro obligatoire.
+                </span>
+            </td>
+        </tr>
+
+        <!-- Mot de passe -->
+        <tr>
+            <td><label for="password">Password</label></td>
+            <td>
+                <input id="password" type="password" formControlName="password" />
+                <span class="error" *ngIf="(registerForm.get('password')?.touched || isRegisterFormSubmitted)
+                && registerForm.get('password')?.invalid">
+                    Mot de passe obligatoire.
+                </span>
+            </td>
+        </tr>
+
+        <!-- Confirmation du mot de passe -->
+        <tr>
+            <td><label for="confirmPassword">Confirm password</label></td>
+            <td>
+                <input id="confirmPassword" type="password" formControlName="confirmPassword" />
+                <span class="error" *ngIf="(register_confirmPassword_Control.touched || isRegisterFormSubmitted)
+                && register_confirmPassword_Control.errors?.['required']">
+                    Confirmation du mot de passe obligatoire.
+                </span>
+
+                <span class="error" *ngIf="(register_confirmPassword_Control?.touched || isRegisterFormSubmitted)
+                && register_confirmPassword_Control.errors?.['compareValidator']">
+                    The two password do not match
+                </span>
+            </td>
+        </tr>
+
+        <!-- Bouton de soumission -->
+        <tr>
+            <td colspan="2" class="submit-cell">
+                <button type="submit"  class="button">Soumettre</button>
+            </td>
+        </tr>
+    </table>
+</form>

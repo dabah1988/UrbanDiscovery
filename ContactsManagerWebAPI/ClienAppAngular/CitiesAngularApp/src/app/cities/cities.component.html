@@ -1,0 +1,31 @@
+   
+    <div class="container">
+        <h1>Liste des Villes</h1>
+        <!-- Tableau des villes -->
+        <table>
+            <tr><td colspan="6"  class="addCity">
+                    <a [routerLink]="'/addCity'" class="nav-link" routerLinkActive="active-link">Add a new City</a></td></tr>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Nom de la Ville</th>
+                    <th>Population</th>
+                    <th>Superficie (km²)</th>
+                    <th colspan="2" class="action">Actions </th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Exemple de données - à remplacer par une boucle dynamique en fonction des données -->
+                <tr *ngFor="let city of cities;let i = index">
+                    <td>{{i+1}}</td>
+                    <td>{{city.cityName}}</td>
+                    <td>{{city.cityPopulation}}</td>
+                    <td>{{ city.cityArea }}</td>
+                    <td>  <button (click)="editCity(city)" class="button">Modifier</button></td>
+                    <td>  <button (click)="deleteCity(city)" class="button2">Supprimer</button></td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+

@@ -1,0 +1,217 @@
+h1{
+    color:purple;
+    font-weight:bold;
+}
+
+ 
+/* Style général */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* En-tête de la page */
+header {
+  background-color: #2980b9;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+  header h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+
+  header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+
+/* Section présentation */
+.intro-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+  .intro-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+
+  .intro-section p {
+    font-size: 1.1em;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+/* Section des villes */
+.cities-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 50px 20px;
+  background-color: #ecf0f1;
+}
+
+.city-card {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  width: 280px;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+  .city-card:hover {
+    transform: translateY(-10px);
+  }
+
+  .city-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .city-card h3 {
+    margin: 20px 0;
+    color: #2980b9;
+    font-size: 1.5em;
+  }
+
+  .city-card p {
+    color: #7f8c8d;
+    font-size: 1.1em;
+  }
+
+/* Section des attractions */
+.attractions-section {
+  padding: 50px 20px;
+}
+
+  .attractions-section h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+.attractions-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.attraction-card {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+  .attraction-card:hover {
+    transform: translateY(-10px);
+  }
+
+  .attraction-card h4 {
+    color: #2980b9;
+    font-size: 1.5em;
+  }
+
+  .attraction-card p {
+    color: #7f8c8d;
+  }
+
+/* Footer */
+footer {
+  background-color: #2980b9;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+  footer p {
+    margin: 0;
+  }
+
+/* Design responsive */
+@media (max-width: 768px) {
+  .city-card, .attraction-card {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  header h1 {
+    font-size: 2em;
+  }
+
+  header p {
+    font-size: 1em;
+  }
+
+  .intro-section p {
+    font-size: 1em;
+  }
+}
+
+/* Style pour la barre de navigation dans l'en-tête */
+nav {
+  margin-top: 20px;
+}
+
+  /* Style des liens dans la navigation */
+  nav a {
+    color: white; /* Couleur du texte */
+    font-size: 1.1em; /* Taille du texte */
+    margin: 0 15px; /* Espacement entre les liens */
+    text-decoration: none; /* Retire le soulignement par défaut */
+    text-transform: uppercase; /* Met en majuscules les liens */
+    padding: 10px 20px; /* Espacement interne pour rendre les liens plus cliquables */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Effet de transition pour le survol */
+    background-color: #16a085; /* Couleur de fond lors du survol */
+    transform: translateY(-3px); /* Légère élévation lors du survol */
+    font-weight:bold;
+  }
+
+    /* Effet au survol des liens */
+    nav a:hover {
+      background-color: #16a085; /* Couleur de fond lors du survol */
+      transform: translateY(-3px); /* Légère élévation lors du survol */
+      font-size: 1.2em; /* Taille du texte */
+    }
+
+
+/* Style pour le lien Login */
+.styleLogin {
+  background-color: #28a745;
+  padding: 8px 15px;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+  .styleLogin:hover {
+    background-color: #218838;
+  }
+
+.bouton_refresh
+{
+    padding:10px;
+    background-color:white;
+    font-size:14px;
+    font-weight:bolder;
+}

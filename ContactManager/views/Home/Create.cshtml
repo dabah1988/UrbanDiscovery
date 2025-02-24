@@ -1,0 +1,50 @@
+﻿@using ContactsManager.Core.DTO;
+@model PersonAddRequest
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Créer  la Personne";
+    ViewBag.CurrentUrl = "~/Persons/Create";
+}
+
+<h2> @ViewData["Title"]</h2>
+<link rel=" stylesheet" href="~/css/edit.css" />
+
+<form asp-action="Create" asp-controller="Home" method="post">
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email" class="control-label"></label>
+        <input asp-for="Email" class="form-control" type="email" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PhoneNumber" class="control-label"></label>
+        <input asp-for="PhoneNumber" class="form-control" type="tel" />
+        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DateOfBirth" class="control-label"></label>
+        <input asp-for="DateOfBirth" class="form-control" type="date" />
+        <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CountryId" class="control-label">Pays</label>
+        <select asp-for="CountryId" class="form-control" asp-items="ViewBag.Countries"></select>
+        <span asp-validation-for="CountryId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mt-3">
+        <button type="submit" class="btn btn-primary">Add</button>
+    </div>
+</form>
+@* 
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+} *@

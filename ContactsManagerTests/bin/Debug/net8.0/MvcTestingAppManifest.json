@@ -1,0 +1,5 @@
+{
+  "ContactsManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\ContactManager\\ContactManager.Core",
+  "ContactsManager.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\ContactManager\\ContactsManager.Infrastructure",
+  "ContactsManager.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\ContactManager\\ContactManager"
+}

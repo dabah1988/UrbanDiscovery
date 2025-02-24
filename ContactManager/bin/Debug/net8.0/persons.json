@@ -1,0 +1,82 @@
+﻿[
+  {
+    "Id": 1,
+    "Name": "Alice Dupont",
+    "Email": "alice.dupont@example.com",
+    "PhoneNumber": "+33123456789",
+    "DateOfBirth": "1990-05-15T00:00:00",
+    "CountryId": "e7b3c506-8c8b-4b9a-bbf3-1a2e2e4e5f12"
+  },
+  {
+    "Id": 2,
+    "Name": "Jean Martin",
+    "Email": "jean.martin@example.com",
+    "PhoneNumber": "+33698765432",
+    "DateOfBirth": "1985-08-22T00:00:00",
+    "CountryId": "e7b3c506-8c8b-4b9a-bbf3-1a2e2e4e5f12"
+  },
+  {
+    "Id": 3,
+    "Name": "Maria Gonzalez",
+    "Email": "maria.gonzalez@example.com",
+    "PhoneNumber": "+34612345678",
+    "DateOfBirth": "1995-11-30T00:00:00",
+    "CountryId": "e7b3c506-8c8b-4b9a-bbf3-1a2e2e4e5f12"
+  },
+  {
+    "Id": 4,
+    "Name": "John Doe",
+    "Email": "john.doe@example.com",
+    "PhoneNumber": "+15551234567",
+    "DateOfBirth": "1992-03-10T00:00:00",
+    "CountryId": "d234f91e-6b8a-45e9-bf13-89a41e2d5d78"
+  },
+  {
+    "Id": 5,
+    "Name": "Emma Brown",
+    "Email": "emma.brown@example.com",
+    "PhoneNumber": "+447712345678",
+    "DateOfBirth": "1998-07-19T00:00:00",
+    "CountryId": "d234f91e-6b8a-45e9-bf13-89a41e2d5d78"
+  },
+  {
+    "Id": 6,
+    "Name": "Robert Wilson",
+    "Email": "robert.wilson@example.com",
+    "PhoneNumber": "+613987654321",
+    "DateOfBirth": "1987-09-25T00:00:00",
+    "CountryId": "a9c4d7f3-1c8e-42b5-92f0-82e1e3c9e1f7"
+  },
+  {
+    "Id": 7,
+    "Name": "Sophie Laurent",
+    "Email": "sophie.laurent@example.com",
+    "PhoneNumber": "+33123459876",
+    "DateOfBirth": "1993-04-12T00:00:00",
+    "CountryId": "a9c4d7f3-1c8e-42b5-92f0-82e1e3c9e1f7"
+  },
+  {
+    "Id": 8,
+    "Name": "Liam Johnson",
+    "Email": "liam.johnson@example.com",
+    "PhoneNumber": "+12125556789",
+    "DateOfBirth": "1991-06-28T00:00:00",
+    "CountryId": "c5a1e2f4-9d2a-41c7-ae45-34f2b4e5c6d9"
+  },
+  {
+    "Id": 9,
+    "Name": "Isabella Rossi",
+    "Email": "isabella.rossi@example.com",
+    "PhoneNumber": "+393391234567",
+    "DateOfBirth": "1996-02-05T00:00:00",
+    "CountryId": "c5a1e2f4-9d2a-41c7-ae45-34f2b4e5c6d9"
+  },
+  {
+    "Id": 10,
+    "Name": "David Schmidt",
+    "Email": "david.schmidt@example.com",
+    "PhoneNumber": "+4917623456789",
+    "DateOfBirth": "1984-12-14T00:00:00",
+    "CountryId": "b1e9f5d3-4c7a-4821-983a-91f2c3e1d5a6"
+  }
+]

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plateforme de Tourisme - Découvrez les Villes et Attractions</title>
+</head>
+<body>
+    <!-- En-tête de la page -->
+    <header>
+        <h1>Bienvenue sur notre Plateforme de Tourisme</h1>
+        <p>Explorez les villes et leurs attractions touristiques partout dans le monde</p>
+        <nav>
+            <a [routerLink]="'/welcome'" class="nav-link" routerLinkActive="active-link">Presentation</a>
+
+            <a [routerLink]="'/contactUs'" class="nav-link" routerLinkActive="active-link"> Contact Us</a>
+
+            <ng-container *ngIf="isUserConnected">
+                <a [routerLink]="'/registerUser'" class="nav-link" routerLinkActive="active-link"> Register </a>
+                <a [routerLink]="'/login'" class="nav-link" routerLinkActive="active-link"> Login </a>
+            </ng-container>
+            <ng-container *ngIf="!isUserConnected">
+                <a [routerLink]="'/cities'" class="nav-link" routerLinkActive="active-link">Nos Villes</a>
+                <span class="user-name">Bonjour, {{ accountService.currentUserName }}</span>
+                <a [routerLink]="" (click)="onLogOutClicked()"> LogOUT </a>
+            </ng-container>
+            <button type="button" (click)="refreshTokenClicked()" class="bouton_refresh"> Refresh</button>
+        </nav>
+    </header>
+
+    <router-outlet></router-outlet>
+</body>
+</html>
+
+
+

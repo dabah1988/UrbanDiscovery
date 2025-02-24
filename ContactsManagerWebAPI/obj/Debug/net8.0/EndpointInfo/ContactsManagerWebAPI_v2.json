@@ -1,0 +1,38 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "City Web",
+    "description": "Api for manage cities",
+    "contact": {
+      "name": "Yves-Régis",
+      "email": "yves.regis@example.com"
+    },
+    "version": "2.0"
+  },
+  "paths": {
+    "/api/v2/City": {
+      "get": {
+        "tags": [
+          "City"
+        ],
+        "summary": "✅ Get list of City name",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/xml": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

@@ -1,0 +1,70 @@
+﻿/* Style de base pour la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Style du header et du menu */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centrer les éléments de la navigation */
+}
+
+    nav ul li {
+        margin: 0 20px; /* Espacement entre les éléments */
+    }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 10px 20px;
+            display: block;
+            transition: background-color 0.3s ease; /* Animation de changement de couleur */
+        }
+
+            nav ul li a:hover {
+                background-color: #575757; /* Couleur au survol */
+                border-radius: 5px; /* Arrondir les bords du lien */
+            }
+
+/* Mise en page du footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Style de la page principale */
+main {
+    padding: 20px;
+}
+
+/* Responsive : Pour les écrans plus petits */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Empile les éléments du menu */
+        align-items: center; /* Centre les éléments empilés */
+    }
+
+        nav ul li {
+            margin: 10px 0; /* Réduit l'espacement entre les éléments */
+        }
+
+            nav ul li a {
+                font-size: 18px; /* Augmente la taille des liens sur petits écrans */
+                padding: 15px 30px; /* Augmente l'espace autour du texte */
+            }
+}

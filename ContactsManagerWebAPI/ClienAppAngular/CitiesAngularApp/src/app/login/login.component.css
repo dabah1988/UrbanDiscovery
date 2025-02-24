@@ -1,0 +1,71 @@
+.city-form-table {
+  width: 100%;
+  max-width: 600px;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+  /* Espacement et alignement des cellules */
+  .city-form-table td {
+    padding: 12px 15px;
+    vertical-align: middle;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  /* Style du label */
+  .city-form-table label {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  /* Style des champs input */
+  .city-form-table input {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+  }
+
+    /* Focus sur les input */
+    .city-form-table input:focus {
+      border-color: #66afe9;
+      outline: none;
+    }
+
+.text-red {
+  color: red;
+  font-weight: bolder;
+}
+
+.error {
+  color: red;
+  font-weight: bolder;
+}
+
+.submit-cell {
+  text-align: center;
+  border-bottom: none;
+  padding: 2px;
+}
+/* Style du bouton de soumission */
+button {
+  background: #007bff;
+  color: #fff;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.create_account {
+  font-weight: bold;
+  font-size: 14px;
+  color: forestgreen;
+}

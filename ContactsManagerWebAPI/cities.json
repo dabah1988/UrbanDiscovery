@@ -1,0 +1,44 @@
+﻿[
+  {
+    "CityId": "B0C015F2-9E6E-40E1-85D0-E7CC5FB59B88",
+    "CityName": "Lagos",
+    "CityPopulation": 15000000,
+    "CityArea": 1171
+  },
+  {
+    "CityId": "ABC495A1-EBB4-4468-A990-E147F55C8741",
+    "CityName": "Johannesburg",
+    "CityPopulation": 5700000,
+    "CityArea": 1645
+  },
+  {
+    "CityId": "28348723-E719-4262-84C5-E7F0C3939F3D",
+    "CityName": "Le Caire",
+    "CityPopulation": 10000000,
+    "CityArea": 606
+  },
+  {
+    "CityId": "E3E9684E-A4AC-4773-BBE7-B0B69701F0AB",
+    "CityName": "Alger",
+    "CityPopulation": 3500000,
+    "CityArea": 1190
+  },
+  {
+    "CityId": "F7956796-0E7D-4A5C-8B59-5E5B6D2F2CB8",
+    "CityName": "Casablanca",
+    "CityPopulation": 3400000,
+    "CityArea": 220
+  },
+  {
+    "CityId": "E2E21848-5FDA-4F66-96DE-5AA6CF7959AB",
+    "CityName": "Nairobi",
+    "CityPopulation": 4500000,
+    "CityArea": 696
+  },
+  {
+    "CityId": "FF2BE4E5-E4B4-4F2C-A27B-D7083FFD28A7",
+    "CityName": "Addis-Abeba",
+    "CityPopulation": 5000000,
+    "CityArea": 527
+  }
+]

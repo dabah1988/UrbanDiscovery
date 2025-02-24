@@ -1,0 +1,36 @@
+<form [formGroup]="loginForm" (ngSubmit)="loginUserSubmitted()">
+    <table class="city-form-table">
+        <tr><td colspan="2"><p class="create_account">Login Fomr </p></td></tr>
+        <!-- Email -->
+        <tr>
+            <td><label for="email">Email</label></td>
+            <td>
+                <input id="email" type="email" formControlName="email" />
+                <span class="error" *ngIf="(loginForm.get('email')?.touched || isLoginFormFormSubmitted)
+                && loginForm.get('email')?.invalid">
+                    Email obligatoire
+                </span>
+            </td>
+        </tr>
+
+        <!-- Mot de passe -->
+        <tr>
+            <td><label for="password">Password</label></td>
+            <td>
+                <input id="password" type="password" formControlName="password" />
+                <span class="error" *ngIf="(loginForm.get('password')?.touched || isLoginFormFormSubmitted)
+                && loginForm.get('password')?.invalid">
+                    Mot de passe obligatoire.
+                </span>
+            </td>
+        </tr>
+
+
+        <!-- Bouton de soumission -->
+        <tr>
+            <td colspan="2" class="submit-cell">
+                <button type="submit" class="button">Login</button>
+            </td>
+        </tr>
+    </table>
+</form>

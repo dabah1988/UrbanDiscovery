@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "mxbUrWI0b4MsQfT16U7Gj5kommjuRCtURQOxXd+wbm8=",
+  "Source": "ContactsManagerWebAPI",
+  "BasePath": "_content/ContactsManagerWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

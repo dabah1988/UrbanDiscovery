@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ContactsManagerWebAPI</name>
+    </assembly>
+    <members>
+        <member name="T:ContactsManagerWebAPI.Controllers.V1.AccountController">
+            <summary>
+            Account Controller 
+            </summary>
+        </member>
+        <member name="M:ContactsManagerWebAPI.Controllers.V1.AccountController.#ctor(Microsoft.AspNetCore.Identity.UserManager{ContactsManagerWebAPI.Core.Identity.ApplicationUser},Microsoft.AspNetCore.Identity.SignInManager{ContactsManagerWebAPI.Core.Identity.ApplicationUser},ContactsManagerWebAPI.Core.ServicesContracts.IJwtService)">
+            <summary>
+            
+            </summary>
+            <param name="userManager"></param>
+            <param name="signInManager"></param>
+            <param name="jwtService"></param>
+        </member>
+        <member name="M:ContactsManagerWebAPI.Controllers.V1.AccountController.PostRegister(ContactsManagerWebAPI.Core.DTO.RegisterDTO)">
+            <summary>
+            For Registration of user
+            </summary>
+            <param name="registerDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ContactsManagerWebAPI.Controllers.V1.AccountController.IsEmailAlreadyExists(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ContactsManagerWebAPI.Controllers.V1.AccountController.PosLogin(ContactsManagerWebAPI.Core.DTO.LoginDTO)">
+            <summary>
+            Search for User
+            </summary>
+            <param name="loginDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ContactsManagerWebAPI.Controllers.V1.AccountController.GetLoGout">
+            <summary>
+            LogOut Session
+            </summary>
+            <param name="loginDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ContactsManagerWebAPI.Controllers.V1.AccountController.GenerateNewAccessToken(ContactsManagerWebAPI.Core.DTO.TokenModel)">
+            <summary>
+            For Generate Now Token
+            </summary>
+            <param name="tokenModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ContactsManagerWebAPI.Controllers.V1.City">
+            <summary>
+            Version 1 de l'API
+            </summary>
+        </member>
+        <member name="M:ContactsManagerWebAPI.Controllers.V1.City.GetCities">
+            <summary>
+            ✅ Get list of Towns
+            </summary>
+        </member>
+        <member name="M:ContactsManagerWebAPI.Controllers.V1.City.GetCity(System.Guid)">
+            <summary>
+            ✅ Get Town by Id
+            </summary>
+        </member>
+        <member name="M:ContactsManagerWebAPI.Controllers.V1.City.PostCity(ContactsManagerWebAPI.Core.Models.CityModel)">
+            <summary>
+            ✅ Add new Town
+            </summary>
+        </member>
+        <member name="M:ContactsManagerWebAPI.Controllers.V1.City.PutCity(System.Guid,ContactsManagerWebAPI.Core.Models.CityModel)">
+            <summary>
+            ✅ Uodate Town
+            </summary>
+        </member>
+        <member name="M:ContactsManagerWebAPI.Controllers.V1.City.DeleteCity(System.Guid)">
+            <summary>
+            ✅ Delete Town by Id
+            </summary>
+        </member>
+        <member name="M:ContactsManagerWebAPI.Controllers.V1.City.CityExists(System.Guid)">
+            <summary>
+            ✅ Vérifie si une ville existe en base de données
+            </summary>
+        </member>
+        <member name="T:ContactsManagerWebAPI.Controllers.V2.City">
+            <summary>
+            Version 2 de l'API
+            </summary>
+        </member>
+        <member name="M:ContactsManagerWebAPI.Controllers.V2.City.GetCities">
+            <summary>
+            ✅ Get list of City name
+            </summary>
+        </member>
+        <member name="T:ContactsManagerWebAPI.Program">
+            <summary>
+            Classe principale de l'application
+            </summary>
+        </member>
+        <member name="M:ContactsManagerWebAPI.Program.Main(System.String[])">
+            <summary>
+            Main Fonction
+            </summary>
+            <param name="args"></param>
+        </member>
+    </members>
+</doc>
