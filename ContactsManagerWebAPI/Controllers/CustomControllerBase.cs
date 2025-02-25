@@ -2,6 +2,7 @@
 
 namespace ContactsManagerWebAPI.Controllers
 {
+
     /// <summary>
     /// Add CustomControllerBase
     /// </summary>
