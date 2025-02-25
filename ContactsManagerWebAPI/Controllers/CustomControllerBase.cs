@@ -2,6 +2,9 @@
 
 namespace ContactsManagerWebAPI.Controllers
 {
+    /// <summary>
+    /// Add CustomControllerBase
+    /// </summary>
     [Route("api/v{version:apiVersion}/[controller]")]
     //[Route("api/[controller]")]
     [ApiController]
