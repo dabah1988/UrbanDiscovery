@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\UrbanDiscovery\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{440C5E9B-79D9-49A6-868A-CB4364098367}|ContactsManagerWebAPI\\ContactsManagerWebAPI.csproj|d:\\cours_apprentissage_sharp\\update_aspnet_core_december\\cleanarchitecture\\urbandiscovery\\contactsmanagerwebapi\\controllers\\v2\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{440C5E9B-79D9-49A6-868A-CB4364098367}|ContactsManagerWebAPI\\ContactsManagerWebAPI.csproj|solutionrelative:contactsmanagerwebapi\\controllers\\v2\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{15D7DEA9-3127-4E3C-BE42-589902CF7266}|ContactsManagerTests\\ContactsManagerTests.csproj|d:\\cours_apprentissage_sharp\\update_aspnet_core_december\\cleanarchitecture\\urbandiscovery\\contactsmanagertests\\countryservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15D7DEA9-3127-4E3C-BE42-589902CF7266}|ContactsManagerTests\\ContactsManagerTests.csproj|solutionrelative:contactsmanagertests\\countryservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{15D7DEA9-3127-4E3C-BE42-589902CF7266}|ContactsManagerTests\\ContactsManagerTests.csproj|d:\\cours_apprentissage_sharp\\update_aspnet_core_december\\cleanarchitecture\\urbandiscovery\\contactsmanagertests\\contactsmanagertests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{15D7DEA9-3127-4E3C-BE42-589902CF7266}|ContactsManagerTests\\ContactsManagerTests.csproj|solutionrelative:contactsmanagertests\\contactsmanagertests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{440C5E9B-79D9-49A6-868A-CB4364098367}|ContactsManagerWebAPI\\ContactsManagerWebAPI.csproj|d:\\cours_apprentissage_sharp\\update_aspnet_core_december\\cleanarchitecture\\urbandiscovery\\contactsmanagerwebapi\\controllers\\v2\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{440C5E9B-79D9-49A6-868A-CB4364098367}|ContactsManagerWebAPI\\ContactsManagerWebAPI.csproj|solutionrelative:contactsmanagerwebapi\\controllers\\v2\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{440C5E9B-79D9-49A6-868A-CB4364098367}|ContactsManagerWebAPI\\ContactsManagerWebAPI.csproj|d:\\cours_apprentissage_sharp\\update_aspnet_core_december\\cleanarchitecture\\urbandiscovery\\contactsmanagerwebapi\\controllers\\v1\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 598,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CountryServiceTest.cs",
               "DocumentMoniker": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\UrbanDiscovery\\ContactsManagerTests\\CountryServiceTest.cs",
               "RelativeDocumentMoniker": "ContactsManagerTests\\CountryServiceTest.cs",
@@ -71,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HomeControllerIntegration.cs",
               "DocumentMoniker": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\UrbanDiscovery\\ContactsManagerTests\\HomeControllerIntegration.cs",
               "RelativeDocumentMoniker": "ContactsManagerTests\\HomeControllerIntegration.cs",
@@ -83,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CustomWebFactoryHttpClient.cs",
               "DocumentMoniker": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\UrbanDiscovery\\ContactsManagerTests\\CustomWebFactoryHttpClient.cs",
               "RelativeDocumentMoniker": "ContactsManagerTests\\CustomWebFactoryHttpClient.cs",
@@ -95,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ContactsManagerTests.csproj",
               "DocumentMoniker": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\UrbanDiscovery\\ContactsManagerTests\\ContactsManagerTests.csproj",
               "RelativeDocumentMoniker": "ContactsManagerTests\\ContactsManagerTests.csproj",
@@ -107,15 +107,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "City.cs",
               "DocumentMoniker": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\UrbanDiscovery\\ContactsManagerWebAPI\\Controllers\\V2\\City.cs",
               "RelativeDocumentMoniker": "ContactsManagerWebAPI\\Controllers\\V2\\City.cs",
               "ToolTip": "D:\\COURS_APPRENTISSAGE_SHARP\\UPDATE_ASPNET_CORE_DECEMBER\\CleanArchitecture\\UrbanDiscovery\\ContactsManagerWebAPI\\Controllers\\V2\\City.cs",
               "RelativeToolTip": "ContactsManagerWebAPI\\Controllers\\V2\\City.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAUwBwAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAUwDMAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T12:14:38.584Z"
+              "WhenOpened": "2025-02-24T12:14:38.584Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

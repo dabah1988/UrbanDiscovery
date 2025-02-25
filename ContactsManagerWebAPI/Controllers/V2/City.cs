@@ -34,13 +34,26 @@ namespace ContactsManagerWebAPI.Controllers.V2
         /// Get List Of population
         /// </summary>
         /// <returns></returns>
-        [HttpPost]
+        [HttpGet]
         [Produces("application/json")]
         public async Task<ActionResult<IEnumerable<int>>> GetPopulation()
         {
             if (_dbContext == null || _dbContext.Cities == null)
                 return NotFound("Database is not accessible");
             return await _dbContext.Cities.Select(c => c.CityPopulation).ToListAsync();
+        }
+
+        /// <summary>
+        /// Get area
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        [Produces("application/json")]
+        public async Task<ActionResult<IEnumerable<double>>> GetArea()
+        {
+            if (_dbContext == null || _dbContext.Cities == null)
+                return NotFound("Database is not accessible");
+            return await _dbContext.Cities.Select(c => c.CityArea).ToListAsync();
         }
     }
 }
